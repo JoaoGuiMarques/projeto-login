@@ -17,6 +17,7 @@ Grandes telas: acima de 1200px
 
     section#login {
         width: 80vw;
+        height: 310px;
     }
 
     #imagem {
@@ -29,15 +30,33 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    p {
+        font-size: 1em;
+        margin-bottom: 14px;
+    }
+
+    form > div.campo {
+        margin-bottom: 10px;
+    }
+
+    input[type=submit] {
+        margin-top: 12px;
+    }
+
+    form > a.botao {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     body {
-        background-image: linear-gradient(45deg, #8C0303, #D9B504);
+        background-image: linear-gradient(45deg, #C73800, #D78608, #3F505A);
     }
 
     section#login {
         width: 950px;
+        height: 340px;
     }
 
     #imagem {
@@ -56,6 +75,19 @@ Grandes telas: acima de 1200px
     }
 
     p {
-    font-size: 1.2em;
-}
+    font-size: 1em;
+    margin-bottom: 14px;
+    }
+
+    form > div.campo {
+        margin-bottom: 10px;
+    }
+
+    input[type=submit] {
+        margin-top: 12px;
+    }
+
+    form > a.botao {
+        margin-top: 10px;
+    }
 }
