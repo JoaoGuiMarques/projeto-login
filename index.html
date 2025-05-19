@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
@@ -14,17 +15,21 @@
             </div>
             <div id="form">
                 <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações  no seu ambiente.</p>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
                 <form action="login.php" method="post">
-                    <label for="name">i</label>
-                    <input type="text" name="name" id="name">
+                    <label for="name">
+                        <span class="material-icons">person</span>
+                    </label>
+                    <input class="log" type="text" name="name" id="name" maxlength="15" placeholder="nome de usuário">
                     <br>
-                    <label for="pass">s</label>
-                    <input type="password" name="pass" id="pass">
+                    <label for="pass">
+                        <span class="material-icons">key</span>
+                    </label>
+                    <input class="log" type="password" name="pass" id="pass" minlength="8" maxlength="15" placeholder="sua senha">
                     <br>
-                    <input type="submit" value="Entrar">
+                    <input id="entrar" type="submit" value="Entrar">
                     <br>
-                    <input type="button" value="Esqueci a senha">
+                    <input id="esqueci" type="button" value="Esqueci a senha">
                 </form>
             </div>
         </section>

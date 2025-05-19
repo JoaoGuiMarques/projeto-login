@@ -25,7 +25,7 @@
 }
 
 html, body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: var(--cor2);
     height: 100vh;
     display: flex;
@@ -37,14 +37,14 @@ html, body {
 }
 
 main {
-    width: 30vw;
+    width: 40vw;
     margin: auto;
 
 }
 
 div img {
     display: block;
-    width: 30vw;
+    width: 40vw;
     height: 25vh;
     border-radius: 20px 20px 0px 0px;
 }
@@ -61,6 +61,52 @@ h1 {
 }
 
 p {
-    text-align: justify;
+    text-align: left;
     margin-bottom: 8px;
+}
+
+#name, #pass {
+    border: 2px solid var(--cor1);
+    border-radius: 4px;
+    margin: 0px 0px 5px 0px;
+}
+
+.log {
+    padding: 5px 20px;
+}
+
+span {
+    color: white;
+    background-color: var(--cor1);
+    border-radius: 2px;
+    margin-right: 0px;
+}
+
+#entrar {
+    padding: 5px 100px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border-color: var(--cor1);
+    background-color: var(--cor1);
+    color: white;
+    cursor: pointer;
+}
+
+#entrar:hover {
+    background-color: #f05820;
+    border-color: #f05820;
+}
+
+#esqueci {
+    padding: 5px 70px;
+    border-radius: 4px;
+    border-color: var(--cor1);
+    color: var(--cor1);
+    cursor: pointer;
+}
+
+#esqueci:hover {
+    background-color: white;
+    border-color: #e06f45;
+    color: #e06f45;
 }
